@@ -1,0 +1,58 @@
+
+
+.table {
+   width: 600px;
+   background-color: rgb(194, 194, 255);
+   margin: 100px auto;
+   padding: 50px;
+   border-radius: 5px;
+   position: relative;
+}
+table>thead,table>tbody{
+   width: 100%;
+}
+table th {
+   width: 300px;
+   padding: 10px;
+   font-size: 20px;
+}
+table td {
+   width: 300px;
+      padding: 10px;
+      text-align: center;
+      font-weight: 700;
+      color: rgb(49, 49, 98);
+}
+table>tbody{
+   background-color: rgb(215, 215, 255);
+}
+.d-flex {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 20px;
+}
+button {
+   padding: 5px 10px;
+   background-color:rgb(49, 49, 98) ;
+   color: white;
+   font-size: 20px;
+   border: none;
+   border-radius: 40px;
+   z-index: 10;
+   position: absolute;
+   left: 90%;
+   top:62% ;
+}
+button:active {
+   color: rgb(49, 49, 98);
+   background-color: white;
+}
+input {
+   outline: none;
+   border: none;
+   background-color:transparent;
+   font-size:16px;
+   font-weight: 700;
+   color: rgb(49, 49, 98);
+}
